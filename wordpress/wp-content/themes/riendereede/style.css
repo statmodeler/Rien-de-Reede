@@ -1,0 +1,135 @@
+/*
+Theme Name: riendereede
+Theme URI: http://wordpress.org/themes/riendereede
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: theme voor riendereede.nl
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: riendereede 
+*/
+
+
+.entry-content > p, form label  {
+	color: #696969;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+}
+
+.txt1rood {
+	color: #FF0000;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+}
+
+.txtsmall{
+	color: #696969;
+	font-size: 9px;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+}
+
+a{
+	color: #696969;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #CCAE00;
+}
+
+H1, .entry-title {
+	color: #696969;
+	font-size: 17px;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+H2 {
+	color: #CCAE00;
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+}
+
+body{
+	background-color: #ffffff;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+table{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	border: 0px;
+}
+
+img[class^="wp-image"]{
+	border: solid #696969 1px;
+	margin: 1px;
+}
+
+figure[class^="wp-block-gallery"]{
+	padding: 5px;
+	margin: 5px;
+}
+
+ul.menu {
+	padding: 0px 0px 0px 0px;
+}
+
+ul > li[class^="menu-item"] {
+	display: inline-block;
+	/* You can also add some margins here to make it look prettier */
+	zoom:1;
+	*display:inline;
+	/* this fix is needed for IE7- */
+}
+
+li[class^="menu-item"]+ li:before{
+	content: " | ";
+	padding: 0 0px;
+}
+
+li[class^="menu-item"] > a {
+	color: #696969;
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+}
+
+li[class^="menu-item"] > .menu{
+	color: #696969;
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+}
+
+li[class^="menu-item"] > .menu:hover {
+	color: #CCAE00;
+	text-decoration: none;
+}
+
